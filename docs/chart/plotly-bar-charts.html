@@ -65,18 +65,18 @@
 <td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="k">let</span> <span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="i">layout</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs4', 4)" onmouseover="showTip(event, 'fs4', 4)" class="t">Layout</span>(<span class="i">title</span> <span class="o">=</span> <span class="s">&quot;Basic Bar Chart&quot;</span>)
 
 [<span class="s">&quot;giraffes&quot;</span>, <span class="n">20</span>; <span class="s">&quot;orangutans&quot;</span>, <span class="n">14</span>; <span class="s">&quot;monkeys&quot;</span>, <span class="n">23</span>]
-<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 5)" onmouseover="showTip(event, 'fs5', 5)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs6', 6)" onmouseover="showTip(event, 'fs6', 6)" class="f">Bar</span>
+<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 5)" onmouseover="showTip(event, 'fs5', 5)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs6', 6)" onmouseover="showTip(event, 'fs6', 6)" class="i">Bar</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 7)" onmouseover="showTip(event, 'fs5', 7)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs7', 8)" onmouseover="showTip(event, 'fs7', 8)" class="f">WithLayout</span> <span onmouseout="hideTip(event, 'fs3', 9)" onmouseover="showTip(event, 'fs3', 9)" class="i">layout</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 10)" onmouseover="showTip(event, 'fs5', 10)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs8', 11)" onmouseover="showTip(event, 'fs8', 11)" class="f">WithHeight</span> <span class="n">500</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 12)" onmouseover="showTip(event, 'fs5', 12)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs9', 13)" onmouseover="showTip(event, 'fs9', 13)" class="f">WithWidth</span> <span class="n">700</span>
 </code></pre></td>
 </tr>
 </table>
-<div id="c8978995-b210-4610-a584-bc198151742b" style="width: 700px; height: 500px;"></div>
+<div id="a3d9e74f-528c-4acb-9435-dcbf36ea2a84" style="width: 700px; height: 500px;"></div>
         <script>
             var data = [{"type":"bar","x":[20,14,23],"y":["giraffes","orangutans","monkeys"],"orientation":"h"}];
             var layout = {"title":"Basic Bar Chart"};
-            Plotly.newPlot('c8978995-b210-4610-a584-bc198151742b', data, layout);
+            Plotly.newPlot('a3d9e74f-528c-4acb-9435-dcbf36ea2a84', data, layout);
         </script>
 <h2><a name="Grouped-Bar-Chart" class="anchor" href="#Grouped-Bar-Chart">Grouped Bar Chart</a></h2>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
@@ -118,18 +118,18 @@
 <span class="k">let</span> <span onmouseout="hideTip(event, 'fs15', 22)" onmouseover="showTip(event, 'fs15', 22)" class="i">groupedLayout</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs4', 23)" onmouseover="showTip(event, 'fs4', 23)" class="t">Layout</span>(<span class="i">barmode</span> <span class="o">=</span> <span class="s">&quot;group&quot;</span>)
 
 [<span onmouseout="hideTip(event, 'fs10', 24)" onmouseover="showTip(event, 'fs10', 24)" class="i">groupedTrace1</span>; <span onmouseout="hideTip(event, 'fs14', 25)" onmouseover="showTip(event, 'fs14', 25)" class="i">groupedTrace2</span>]
-<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 26)" onmouseover="showTip(event, 'fs5', 26)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs16', 27)" onmouseover="showTip(event, 'fs16', 27)" class="f">Plot</span>
+<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 26)" onmouseover="showTip(event, 'fs5', 26)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs16', 27)" onmouseover="showTip(event, 'fs16', 27)" class="i">Plot</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 28)" onmouseover="showTip(event, 'fs5', 28)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs7', 29)" onmouseover="showTip(event, 'fs7', 29)" class="f">WithLayout</span> <span onmouseout="hideTip(event, 'fs15', 30)" onmouseover="showTip(event, 'fs15', 30)" class="i">groupedLayout</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 31)" onmouseover="showTip(event, 'fs5', 31)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs8', 32)" onmouseover="showTip(event, 'fs8', 32)" class="f">WithHeight</span> <span class="n">500</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 33)" onmouseover="showTip(event, 'fs5', 33)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs9', 34)" onmouseover="showTip(event, 'fs9', 34)" class="f">WithWidth</span> <span class="n">700</span>
 </code></pre></td>
 </tr>
 </table>
-<div id="198d9d54-c93d-44a6-ab33-d66e6f7baebc" style="width: 700px; height: 500px;"></div>
+<div id="fdeafab0-2398-4036-ac09-7a10e249abd9" style="width: 700px; height: 500px;"></div>
         <script>
             var data = [{"type":"bar","x":["giraffes","orangutans","monkeys"],"y":[20,14,23],"name":"SF Zoo"},{"type":"bar","x":["giraffes","orangutans","monkeys"],"y":[12,18,29],"name":"LA Zoo"}];
             var layout = {"barmode":"group"};
-            Plotly.newPlot('198d9d54-c93d-44a6-ab33-d66e6f7baebc', data, layout);
+            Plotly.newPlot('fdeafab0-2398-4036-ac09-7a10e249abd9', data, layout);
         </script>
 <h2><a name="Stacked-Bar-Chart" class="anchor" href="#Stacked-Bar-Chart">Stacked Bar Chart</a></h2>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
@@ -171,18 +171,18 @@
 <span class="k">let</span> <span onmouseout="hideTip(event, 'fs19', 43)" onmouseover="showTip(event, 'fs19', 43)" class="i">stackedLayout</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs4', 44)" onmouseover="showTip(event, 'fs4', 44)" class="t">Layout</span>(<span class="i">barmode</span> <span class="o">=</span> <span class="s">&quot;stack&quot;</span>)
 
 [<span onmouseout="hideTip(event, 'fs17', 45)" onmouseover="showTip(event, 'fs17', 45)" class="i">stackedTrace1</span>; <span onmouseout="hideTip(event, 'fs18', 46)" onmouseover="showTip(event, 'fs18', 46)" class="i">stackedTrace2</span>]
-<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 47)" onmouseover="showTip(event, 'fs5', 47)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs16', 48)" onmouseover="showTip(event, 'fs16', 48)" class="f">Plot</span>
+<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 47)" onmouseover="showTip(event, 'fs5', 47)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs16', 48)" onmouseover="showTip(event, 'fs16', 48)" class="i">Plot</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 49)" onmouseover="showTip(event, 'fs5', 49)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs7', 50)" onmouseover="showTip(event, 'fs7', 50)" class="f">WithLayout</span> <span onmouseout="hideTip(event, 'fs19', 51)" onmouseover="showTip(event, 'fs19', 51)" class="i">stackedLayout</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 52)" onmouseover="showTip(event, 'fs5', 52)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs8', 53)" onmouseover="showTip(event, 'fs8', 53)" class="f">WithHeight</span> <span class="n">500</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 54)" onmouseover="showTip(event, 'fs5', 54)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs9', 55)" onmouseover="showTip(event, 'fs9', 55)" class="f">WithWidth</span> <span class="n">700</span>
 </code></pre></td>
 </tr>
 </table>
-<div id="b9d23b0c-389a-49b3-bbf2-f7962abda114" style="width: 700px; height: 500px;"></div>
+<div id="cb27c7f2-ba50-4a7d-8f2b-2eaa276bb2e6" style="width: 700px; height: 500px;"></div>
         <script>
             var data = [{"type":"bar","x":["giraffes","orangutans","monkeys"],"y":[20,14,23],"name":"SF Zoo"},{"type":"bar","x":["giraffes","orangutans","monkeys"],"y":[12,18,29],"name":"LA Zoo"}];
             var layout = {"barmode":"stack"};
-            Plotly.newPlot('b9d23b0c-389a-49b3-bbf2-f7962abda114', data, layout);
+            Plotly.newPlot('cb27c7f2-ba50-4a7d-8f2b-2eaa276bb2e6', data, layout);
         </script>
 <h2><a name="Colored-and-Styled-Bar-Chart" class="anchor" href="#Colored-and-Styled-Bar-Chart">Colored and Styled Bar Chart</a></h2>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
@@ -314,18 +314,18 @@
     )
 
 [<span onmouseout="hideTip(event, 'fs20', 76)" onmouseover="showTip(event, 'fs20', 76)" class="i">styledTrace1</span>; <span onmouseout="hideTip(event, 'fs22', 77)" onmouseover="showTip(event, 'fs22', 77)" class="i">styledTrace2</span>]
-<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 78)" onmouseover="showTip(event, 'fs5', 78)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs16', 79)" onmouseover="showTip(event, 'fs16', 79)" class="f">Plot</span>
+<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 78)" onmouseover="showTip(event, 'fs5', 78)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs16', 79)" onmouseover="showTip(event, 'fs16', 79)" class="i">Plot</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 80)" onmouseover="showTip(event, 'fs5', 80)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs7', 81)" onmouseover="showTip(event, 'fs7', 81)" class="f">WithLayout</span> <span onmouseout="hideTip(event, 'fs23', 82)" onmouseover="showTip(event, 'fs23', 82)" class="i">styledLayout</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 83)" onmouseover="showTip(event, 'fs5', 83)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs8', 84)" onmouseover="showTip(event, 'fs8', 84)" class="f">WithHeight</span> <span class="n">500</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs5', 85)" onmouseover="showTip(event, 'fs5', 85)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs9', 86)" onmouseover="showTip(event, 'fs9', 86)" class="f">WithWidth</span> <span class="n">700</span>
 </code></pre></td>
 </tr>
 </table>
-<div id="285bd2a5-fca7-461d-a78a-903db7fedfe0" style="width: 700px; height: 500px;"></div>
+<div id="c7c21332-9d22-4702-9238-28a3caaa3b57" style="width: 700px; height: 500px;"></div>
         <script>
             var data = [{"type":"bar","x":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012],"y":[219,146,112,127,124,180,236,207,236,263,350,430,474,526,488,537,500,439],"marker":{"color":"rgb(55, 83, 109)"},"name":"Rest of world"},{"type":"bar","x":[1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012],"y":[16,13,10,11,28,37,43,55,56,88,105,156,270,299,340,403,549,499],"marker":{"color":"rgb(26, 118, 255)"},"name":"China"}];
             var layout = {"title":"US Export of Plastic Scrap","xaxis":{"tickfont":{"size":14.0,"color":"rgb(107, 107, 107)"},"_isSubplotObj":true},"yaxis":{"title":"USD (millions)","titlefont":{"size":16.0,"color":"rgb(107, 107, 107)"},"tickfont":{"size":14.0,"color":"rgb(107, 107, 107)"},"_isSubplotObj":true},"legend":{"bgcolor":"rgba(255, 255, 255, 0)","bordercolor":"rgba(255, 255, 255, 0)","x":0.0,"y":1.0},"barmode":"group","bargap":0.15,"bargroupgap":0.1};
-            Plotly.newPlot('285bd2a5-fca7-461d-a78a-903db7fedfe0', data, layout);
+            Plotly.newPlot('c7c21332-9d22-4702-9238-28a3caaa3b57', data, layout);
         </script>
 <h2><a name="Bar-Chart-with-Hover-Text" class="anchor" href="#Bar-Chart-with-Hover-Text">Bar Chart with Hover Text</a></h2>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
@@ -390,11 +390,11 @@
 </code></pre></td>
 </tr>
 </table>
-<div id="705ef3be-e123-4217-a545-8e71f102f1c8" style="width: 700px; height: 500px;"></div>
+<div id="7cb93d11-d8cb-49d3-ab7e-caf45f4db353" style="width: 700px; height: 500px;"></div>
         <script>
             var data = [{"type":"bar","x":["Liam","Sophie","Jacob","Mia","William","Olivia"],"y":[8.0,8.0,12.0,12.0,13.0,20.0],"text":["4.17 below the mean","4.17 below the mean","0.17 below the mean","0.17 below the mean","0.83 above the mean","7.83 above the mean"],"marker":{"color":"rgb(142, 124, 195)"}}];
             var layout = {"font":{"family":"Raleway, sans-serif"},"title":"Number of graphs made this week","showlegend":false,"xaxis":{"tickangle":-45.0,"_isSubplotObj":true},"yaxis":{"gridwidth":2.0,"zeroline":false,"_isSubplotObj":true},"bargap":0.05};
-            Plotly.newPlot('705ef3be-e123-4217-a545-8e71f102f1c8', data, layout);
+            Plotly.newPlot('7cb93d11-d8cb-49d3-ab7e-caf45f4db353', data, layout);
         </script>
 <h2><a name="Customizing-Individual-Bar-Colors" class="anchor" href="#Customizing-Individual-Bar-Colors">Customizing Individual Bar Colors</a></h2>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
@@ -419,11 +419,11 @@
 </code></pre></td>
 </tr>
 </table>
-<div id="c170b4c2-33ff-4dd3-b101-5af703411f99" style="width: 700px; height: 500px;"></div>
+<div id="a238d144-3a88-43ee-8e6c-989c2ccea71c" style="width: 700px; height: 500px;"></div>
         <script>
             var data = [{"type":"bar","x":[1,2,3,4],"y":[5,4,-3,2],"marker":{"color":["#447adb","#447adb","#db5a44","#447adb"]}}];
             var layout = {"font":{"family":"Raleway, sans-serif"},"title":"Number of graphs made this week","showlegend":false,"xaxis":{"tickangle":-45.0,"_isSubplotObj":true},"yaxis":{"gridwidth":2.0,"zeroline":false,"_isSubplotObj":true},"bargap":0.05};
-            Plotly.newPlot('c170b4c2-33ff-4dd3-b101-5af703411f99', data, layout);
+            Plotly.newPlot('a238d144-3a88-43ee-8e6c-989c2ccea71c', data, layout);
         </script>
 
 <div class="tip" id="fs1">namespace XPlot</div>

@@ -63,7 +63,7 @@ than with just a plan list of key value pairs)</p>
 using a simple F# list comprehension:</p>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
 </pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs4', 4)" onmouseover="showTip(event, 'fs4', 4)" class="f">Line</span> [ <span class="k">for</span> <span onmouseout="hideTip(event, 'fs5', 5)" onmouseover="showTip(event, 'fs5', 5)" class="i">x</span> <span class="k">in</span> <span class="n">0.</span> <span class="o">..</span> <span class="n">0.5</span> <span class="o">..</span> <span class="n">6.3</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs5', 6)" onmouseover="showTip(event, 'fs5', 6)" class="i">x</span>, <span onmouseout="hideTip(event, 'fs6', 7)" onmouseover="showTip(event, 'fs6', 7)" class="f">sin</span> <span onmouseout="hideTip(event, 'fs5', 8)" onmouseover="showTip(event, 'fs5', 8)" class="i">x</span> ]
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs4', 4)" onmouseover="showTip(event, 'fs4', 4)" class="i">Line</span> [ <span class="k">for</span> <span onmouseout="hideTip(event, 'fs5', 5)" onmouseover="showTip(event, 'fs5', 5)" class="i">x</span> <span class="k">in</span> <span class="n">0.</span> <span class="o">..</span> <span class="n">0.5</span> <span class="o">..</span> <span class="n">6.3</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs5', 6)" onmouseover="showTip(event, 'fs5', 6)" class="i">x</span>, <span onmouseout="hideTip(event, 'fs6', 7)" onmouseover="showTip(event, 'fs6', 7)" class="f">sin</span> <span onmouseout="hideTip(event, 'fs5', 8)" onmouseover="showTip(event, 'fs5', 8)" class="i">x</span> ]
 </code></pre></td>
 </tr>
 </table>
@@ -79,18 +79,18 @@ using a simple F# list comprehension:</p>
 
                 var options = {"legend":{"position":"none"}} 
 
-                var chart = new google.visualization.LineChart(document.getElementById('18379068-fe45-4b0e-9134-a2684871242b'));
+                var chart = new google.visualization.LineChart(document.getElementById('1946cba1-617d-4a4d-b436-0981b30d1c01'));
                 chart.draw(data, options);
             }
 </script>
-<div id="18379068-fe45-4b0e-9134-a2684871242b" style="width: 700px; height: 400px;"></div>
+<div id="1946cba1-617d-4a4d-b436-0981b30d1c01" style="width: 700px; height: 400px;"></div>
 <h2><a name="A-smooth-function-chart" class="anchor" href="#A-smooth-function-chart">A smooth function chart</a></h2>
 <p>By default, line charts use straight line segments between the points. You can add
 smoothing by creating <code>Options</code> with <code>curveType="function"</code> as follows:</p>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
 <span class="l">2: </span>
 </pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span onmouseout="hideTip(event, 'fs3', 9)" onmouseover="showTip(event, 'fs3', 9)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs4', 10)" onmouseover="showTip(event, 'fs4', 10)" class="f">Line</span> [ <span class="k">for</span> <span onmouseout="hideTip(event, 'fs5', 11)" onmouseover="showTip(event, 'fs5', 11)" class="i">x</span> <span class="k">in</span> <span class="n">0.</span> <span class="o">..</span> <span class="n">0.5</span> <span class="o">..</span> <span class="n">6.3</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs5', 12)" onmouseover="showTip(event, 'fs5', 12)" class="i">x</span>, <span onmouseout="hideTip(event, 'fs6', 13)" onmouseover="showTip(event, 'fs6', 13)" class="f">sin</span> <span onmouseout="hideTip(event, 'fs5', 14)" onmouseover="showTip(event, 'fs5', 14)" class="i">x</span> ]
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span onmouseout="hideTip(event, 'fs3', 9)" onmouseover="showTip(event, 'fs3', 9)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs4', 10)" onmouseover="showTip(event, 'fs4', 10)" class="i">Line</span> [ <span class="k">for</span> <span onmouseout="hideTip(event, 'fs5', 11)" onmouseover="showTip(event, 'fs5', 11)" class="i">x</span> <span class="k">in</span> <span class="n">0.</span> <span class="o">..</span> <span class="n">0.5</span> <span class="o">..</span> <span class="n">6.3</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs5', 12)" onmouseover="showTip(event, 'fs5', 12)" class="i">x</span>, <span onmouseout="hideTip(event, 'fs6', 13)" onmouseover="showTip(event, 'fs6', 13)" class="f">sin</span> <span onmouseout="hideTip(event, 'fs5', 14)" onmouseover="showTip(event, 'fs5', 14)" class="i">x</span> ]
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs3', 15)" onmouseover="showTip(event, 'fs3', 15)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs7', 16)" onmouseover="showTip(event, 'fs7', 16)" class="f">WithOptions</span>(<span onmouseout="hideTip(event, 'fs8', 17)" onmouseover="showTip(event, 'fs8', 17)" class="t">Options</span>(<span class="i">curveType</span> <span class="o">=</span> <span class="s">&quot;function&quot;</span>))
 </code></pre></td>
 </tr>
@@ -107,11 +107,11 @@ smoothing by creating <code>Options</code> with <code>curveType="function"</code
 
                 var options = {"legend":{"position":"none"},"curveType":"function"} 
 
-                var chart = new google.visualization.LineChart(document.getElementById('6f49e94f-6a1e-43f3-be81-5cfcadb55fcb'));
+                var chart = new google.visualization.LineChart(document.getElementById('3fc225b5-8646-48cd-807d-ad24cd2c0e4f'));
                 chart.draw(data, options);
             }
 </script>
-<div id="6f49e94f-6a1e-43f3-be81-5cfcadb55fcb" style="width: 700px; height: 400px;"></div>
+<div id="3fc225b5-8646-48cd-807d-ad24cd2c0e4f" style="width: 700px; height: 400px;"></div>
 <p>You can find more information about other options that you can specify in the documentation
 <a href="reference/xplot-googlecharts-configuration-options.html">for the <code>Options</code> type</a> in the API
 reference. Another way to explore the available configuration options is to type dot right
@@ -144,7 +144,7 @@ chart with annotations:</p>
       <span class="i">legend</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs12', 22)" onmouseover="showTip(event, 'fs12', 22)" class="t">Legend</span>(<span class="i">position</span> <span class="o">=</span> <span class="s">&quot;bottom&quot;</span>) )
             
 [<span onmouseout="hideTip(event, 'fs9', 23)" onmouseover="showTip(event, 'fs9', 23)" class="i">sales</span>; <span onmouseout="hideTip(event, 'fs10', 24)" onmouseover="showTip(event, 'fs10', 24)" class="i">expenses</span>]
-<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs3', 25)" onmouseover="showTip(event, 'fs3', 25)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs4', 26)" onmouseover="showTip(event, 'fs4', 26)" class="f">Line</span>
+<span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs3', 25)" onmouseover="showTip(event, 'fs3', 25)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs4', 26)" onmouseover="showTip(event, 'fs4', 26)" class="i">Line</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs3', 27)" onmouseover="showTip(event, 'fs3', 27)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs7', 28)" onmouseover="showTip(event, 'fs7', 28)" class="f">WithOptions</span> <span onmouseout="hideTip(event, 'fs11', 29)" onmouseover="showTip(event, 'fs11', 29)" class="i">options</span>
 <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs3', 30)" onmouseover="showTip(event, 'fs3', 30)" class="t">Chart</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs13', 31)" onmouseover="showTip(event, 'fs13', 31)" class="f">WithLabels</span> [<span class="s">&quot;Sales&quot;</span>; <span class="s">&quot;Expenses&quot;</span>]
 </code></pre></td>
@@ -162,11 +162,11 @@ chart with annotations:</p>
 
                 var options = {"legend":{"position":"right"},"title":"Company Performance","curveType":"function"} 
 
-                var chart = new google.visualization.LineChart(document.getElementById('74de559d-3bcd-46a2-acf3-17d8d88b8b88'));
+                var chart = new google.visualization.LineChart(document.getElementById('f3f4ac41-0d19-49f8-a285-6ad2573b9e5a'));
                 chart.draw(data, options);
             }
 </script>
-<div id="74de559d-3bcd-46a2-acf3-17d8d88b8b88" style="width: 700px; height: 400px;"></div>
+<div id="f3f4ac41-0d19-49f8-a285-6ad2573b9e5a" style="width: 700px; height: 400px;"></div>
 <p>Note that the two inputs are sequences of tuples with X (year) and Y (value) pairs. We then
 create <code>Options</code> object to specify the title, smooth curve and also the legend of the chart.
 Then we call <code>Chart.Line</code> followed by <code>Chart.WithOptions</code> and also <code>Chart.WithLabels</code> to
